@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 auto; /*centrar cosas margen automatico*/
+  width: 100%;
+}
+
+.row::before,.row::after{
+  content:" ";
+  display: table;
+}
+
+.row::after{
+  clear:both;
+}
+
+[class*="col-"]{
+  float: left;
+  min-height: 7px;
+  margin:1%;/*gutter*/
+  background:#58ACFA;
+  color: white;
+  height: 70px;
+}
+
+.col-1{
+  width: 6.33%;
+
+}
+
+.col-2{
+  width: 14.66%;
+}
+
+.col-3{
+  width: 23%;
+}
+
+.col-4{
+  width: 31.33%;
+}
+
+.col-5{
+  width: 41.66%;
+}
+
+.col-6{
+  width: 48%;
+}
+
+.col-12{
+  width: 98%;
+}
