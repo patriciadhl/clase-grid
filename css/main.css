@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-  margin: 0 auto; /*centrar cosas margen automatico*/
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -20,7 +20,7 @@ body{
 [class*="col-"]{
   float: left;
   min-height: 7px;
-  margin:1%;/*gutter*/
+  margin:1%;
   background:#58ACFA;
   color: white;
   height: 70px;
